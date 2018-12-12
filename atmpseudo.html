@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM Pseudo</title>
+</head>
+<body>
+    <h1>ATM</h1>
+    <!-- Accept a card, 
+        take a pin code (assume always correct), 
+        ask how much they want, 
+        check balance if have enough       
+         dispense money 
+            else 
+            'You have insufficient funds'
+    -->
+
+    <p>Logic</p>
+    <ul>
+        <li>Display "Enter Card"</li>
+        <li>Input card</li>
+        <li>IF bank card is with proper bank,</li>
+        <li>&nbsp;Display Enter Pin</li>
+        <li>Else Display "This will charge you 2 dollars to carryout"</li>
+        <li>Display "Enter PIN"</li>
+        <li>Input PIN</li>
+        <li>IF pin is correct, </li>
+        <li>&nbsp;Display "Enter Amount You Want To Get"</li>
+        <li>Else Display"Sorry this is the wrong Amount Try Again" </li>
+        <li>Input Amount </li>
+        <li>If balance is good</li>
+        <li>Display Here's the money bud</li>
+        <li>Else Display Sorry Not Enough Funds</li>
+    </ul>
+
+    <p>Main Screen</p>
+    <ul>
+        <li>Please insert card to start</li>
+    </ul>
+
+
+    <p>PIN</p>
+    <ul>
+        <li>Display "Enter 4 digit PIN number"</li>
+        <li>IF pin number is incorrect,</li>
+        <li>&nbsp;Display "PIN is invalid"</li>
+        <li>Else Display,"What would you like to do"</li>
+        <li>IF pin number is incorrect in 3 try's, Display, "The ATM will now be locked and you will have to contact adminstration in order to access account"</li>
+        <li>Display Options, "Deposit, Withdraw, Account Inquary"</li>
+    </ul>
+
+    <p>Withdraw Screen</p>
+    <ul>
+        <li>Display "Enter how much money would you like to withdraw. Make selection in multiples of 10"</li>
+        <li>User Input Amount</li>
+        <li>If amount is not in multiples of 10,</li>
+        <li>&nbsp;Display "Are you sure you want this amount</li>
+        <li>If amount choice input is yes (button 1)</li>
+        <li>dispense money</li>
+        <li>else Display You have no funds</li>
+        <li>Prompt user to go back to main screen</li>
+        <li>If 1 side button is selected</li>
+        <li></li>
+    </ul>
+
+    <p>Transfer Screen</p>
+    <ul>
+        <li>Display "Which account would you like to transfer your money out of"</li>
+        <li>User inputs button assoiciated Checkings and Savings</li>
+        <li>IF choice is Checkings</li>
+        <li>Display, "How much would you like to get"</li>
+        <li>Else, How much would you like to get out"</li>
+        <li>Execute function to transfer for desired account</li>
+    </ul>
+
+    <p>Deposit</p>
+    <ul>
+        <li>Display, "Would you like to make a Deposit"</li>
+        <li>If User is 1</li>
+        <li>Display, "How much would you like to deposit" </li>
+        <li>User input Amount</li>
+        <li>Else if user answer is 2</li>
+        <li>Display Main Screen</li>
+    </ul>
+
+    <p>Receipt</p>
+    <ul>
+        <li>Display "Would you like to recieve a recipet for your transaction?"</li>
+        <li>Prompt user input answer</li>
+        <li>If choice is 1, execute function</li>
+        <li>Prompt user to enter phone number in keypad to text receipt</li>
+        <li>Else, Display "Have a great day"</li>
+    </ul>
+
+</body>
+</html>

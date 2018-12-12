@@ -1,0 +1,219 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+
+
+
+.herocolor{
+    background-color: yellow;
+    height: 450px;
+}
+
+
+#text {
+    position: absolute;
+    top: 45px;
+}
+
+.sidebutton {
+    position: absolute;
+    color: black; 
+    display: block;
+    margin-top: 150px;
+}
+
+
+.cardslot p{
+    position: absolute;
+    padding-left: 950px
+    
+    
+}
+
+
+
+.heroscreen{
+    position: absolute;
+    margin-top: 40px;
+    width: 550px;
+    height: 350px;
+    background-color: black;
+    margin-left: 120px;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+.keypad {
+    position: absolute;
+    top: 100px;
+}
+
+
+
+.k1{
+    position: absolute;
+    margin-top: 438px;
+    margin-left: 130px;
+    width: 100px;
+    height: 70px;
+    
+
+}
+
+.k2{
+    position: absolute;
+    margin-top: 438px;
+    margin-left: 260px;
+    width: 100px;
+    height: 70px;
+
+}
+
+.k3{
+    position: absolute;
+    margin-top: 438px;
+    margin-left: 400px;
+    width: 100px;
+    height: 70px;
+
+}
+
+.k4{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 130px;
+    width: 100px;
+    height: 70px;
+}
+
+.k5{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 260px;
+    width: 100px;
+    height: 70px;
+}
+
+.k6{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 400px;
+    width: 100px;
+    height: 70px;
+}
+
+.k7{
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 130px;
+    width: 100px;
+    height: 70px;
+}
+
+.k8{
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 260px;
+    width: 100px;
+    height: 70px;
+
+}
+
+.k9 {
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 400px;
+    width: 100px;
+    height: 70px;
+}
+
+.k0 {
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 130px;
+    width: 100px;
+    height: 70px;
+}
+
+.kg {
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 260px;
+    width: 100px;
+    height: 70px;
+}
+
+.kl {
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 400px;
+    width: 100px;
+    height: 70px;
+}
+
+.CLEAR {
+    position: absolute;
+    margin-top: 438px;
+    margin-left: 550px;
+    width: 200px;
+    height: 70px;
+    background-color: yellow;
+    
+}
+
+.ENTER{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 550px;
+    width: 200px;
+    height: 70px;
+    background-color: green;
+}
+
+.CANCEL{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 550px;
+    width: 200px;
+    height: 70px;
+    background-color: red;
+}
+
+.hr1{
+    position: absolute;
+    width: 250px;
+    border-top: 17px solid black;
+    margin-top: 70px;
+    margin-left: 920px;
+}
+
+.hr2{
+    position: absolute;
+    width: 300px;
+    border-top: 20px solid black;
+    margin-top: 280px;
+    margin-left: 900px;
+
+}
+
+
+.hr3{
+    position: absolute;
+    background-color: black;
+    width: 60px;
+    margin-left: 1010px;
+    height: 56px;
+    border-radius: 65px;
+    margin-top: 44px;
+}
